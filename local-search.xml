@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>I2C学习笔记</title>
+    <link href="/2023/04/21/I2C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <url>/2023/04/21/I2C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="I2C学习笔记-1"><a href="#I2C学习笔记-1" class="headerlink" title="I2C学习笔记(1)"></a>I2C学习笔记(1)</h1><h2 id="I2C的产生"><a href="#I2C的产生" class="headerlink" title="I2C的产生"></a>I2C的产生</h2><ul><li><p>哈哈</p></li><li><p>check</p><blockquote><p>这是一段引用</p></blockquote></li></ul><h2 id="I2C的通信过程"><a href="#I2C的通信过程" class="headerlink" title="I2C的通信过程"></a>I2C的通信过程</h2><h2 id="I2C的几块拼图"><a href="#I2C的几块拼图" class="headerlink" title="I2C的几块拼图"></a>I2C的几块拼图</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>嵌入式</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>嵌入式学习</tag>
+      
+      <tag>通信</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2023/04/20/hello-world/"/>
     <url>/2023/04/20/hello-world/</url>
