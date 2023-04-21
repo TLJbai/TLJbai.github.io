@@ -23,14 +23,14 @@
 <meta property="og:site_name" content="欢迎光临">
 <meta property="og:description" content="USART学习笔记(1)1.什么是USART(串口)​        USART也就是我们所说的串口，它是我们在电子设备中进行通信的一种工具&#x2F;协议。它既可以进行同步通信，也可以进行异步通信(UART)，而我们使用异步通信较多。USART可以通过波特率发生器来调节发送器和接收器的波特率。它可以进行半双工单线通信，也可以进行全双工通信，支持LIN(局部物联网)，智能卡协议和IrDA(红外数据">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://www.tydpro.com/USART.png">
+<meta property="og:image" content="http://www.tydpro.com/img/USART.png">
 <meta property="article:published_time" content="2023-04-21T08:50:45.000Z">
-<meta property="article:modified_time" content="2023-04-21T12:24:25.319Z">
+<meta property="article:modified_time" content="2023-04-21T12:27:38.235Z">
 <meta property="article:author" content="陶奕多">
 <meta property="article:tag" content="嵌入式">
 <meta property="article:tag" content="USART">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://www.tydpro.com/USART.png">
+<meta name="twitter:image" content="http://www.tydpro.com/img/USART.png">
   
   
   
@@ -279,7 +279,7 @@
                 
                 <h1 id="USART学习笔记-1"><a href="#USART学习笔记-1" class="headerlink" title="USART学习笔记(1)"></a>USART学习笔记(1)</h1><h4 id="1-什么是USART-串口"><a href="#1-什么是USART-串口" class="headerlink" title="1.什么是USART(串口)"></a>1.什么是USART(串口)</h4><p>​        USART也就是我们所说的串口，它是我们在电子设备中进行通信的一种工具&#x2F;协议。它既可以进行同步通信，也可以进行异步通信(UART)，而我们使用异步通信较多。USART可以通过波特率发生器来调节发送器和接收器的波特率。它可以进行半双工单线通信，也可以进行全双工通信，支持LIN(局部物联网)，智能卡协议和IrDA(红外数据组织)SIR ENDEC规范和调制解调器(CTS&#x2F;RTS)操作，允许多处理器通信。</p>
 <p>​       以下就是电子设备通过串口协议连接的图片，从图中可以看出USART需要4个引脚，分别是Rx(接收数据的引脚)、Tx(发送数据的引脚)、GND(共地线，共地是为了让两个电子设备的低电平电位相同)和CLK(时钟线，同步通信时传递时钟信号，异步时可以不接时钟线)</p>
-<p><img src="/USART.png" srcset="/img/loading.gif" lazyload alt="请稍后" title="设备串口连接图"></p>
+<p><img src="/./img/USART.png" srcset="/img/loading.gif" lazyload alt="请稍后" title="设备串口连接图"></p>
 <h4 id="2-串口的资源-只列出常用的"><a href="#2-串口的资源-只列出常用的" class="headerlink" title="2.串口的资源(只列出常用的)"></a>2.串口的资源(只列出常用的)</h4><ul>
 <li><p><strong>串口硬件</strong>：RX、TX、发送数据寄存器(TDR)、发送移位寄存器、接收数据寄存器(RDR)、接收移位寄存器</p>
 <blockquote>
